@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="404.html">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="accueil.aspx">
+      <publishTime>04/06/2017 16:40:15</publishTime>
+    </File>
+    <File Include="addetape.aspx">
+      <publishTime>04/06/2017 16:40:26</publishTime>
+    </File>
+    <File Include="addprojet.aspx">
+      <publishTime>04/06/2017 16:42:33</publishTime>
+    </File>
+    <File Include="ajout.aspx">
+      <publishTime>04/03/2017 07:08:26</publishTime>
+    </File>
+    <File Include="archive.aspx">
+      <publishTime>04/06/2017 19:18:23</publishTime>
+    </File>
+    <File Include="bin/BEL.dll">
+      <publishTime>04/02/2017 19:28:20</publishTime>
+    </File>
+    <File Include="bin/BLL.dll">
+      <publishTime>04/06/2017 19:26:52</publishTime>
+    </File>
+    <File Include="bin/DAL.dll">
+      <publishTime>04/03/2017 17:16:05</publishTime>
+    </File>
+    <File Include="bin/ProjetMeh.dll">
+      <publishTime>05/22/2017 22:38:28</publishTime>
+    </File>
+    <File Include="comptes.aspx">
+      <publishTime>04/04/2017 14:28:09</publishTime>
+    </File>
+    <File Include="connexion.aspx">
+      <publishTime>04/06/2017 16:34:06</publishTime>
+    </File>
+    <File Include="Control/ControlRecherche.ascx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Controle/ControlRecherche.ascx">
+      <publishTime>04/06/2017 11:05:04</publishTime>
+    </File>
+    <File Include="Controle/Liste.ascx">
+      <publishTime>04/06/2017 10:19:50</publishTime>
+    </File>
+    <File Include="demande.aspx">
+      <publishTime>04/04/2017 15:20:18</publishTime>
+    </File>
+    <File Include="erreur.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>02/03/2017 20:33:12</publishTime>
+    </File>
+    <File Include="Images/moins.png">
+      <publishTime>02/03/2017 20:33:12</publishTime>
+    </File>
+    <File Include="Images/plus.png">
+      <publishTime>02/03/2017 20:33:12</publishTime>
+    </File>
+    <File Include="Images/saina.png">
+      <publishTime>02/03/2017 20:33:12</publishTime>
+    </File>
+    <File Include="impression.aspx">
+      <publishTime>04/06/2017 16:37:58</publishTime>
+    </File>
+    <File Include="mail.aspx">
+      <publishTime>04/03/2017 16:31:14</publishTime>
+    </File>
+    <File Include="nouveau.aspx">
+      <publishTime>04/06/2017 16:53:42</publishTime>
+    </File>
+    <File Include="Scripts/addetape.js">
+      <publishTime>02/06/2017 04:40:56</publishTime>
+    </File>
+    <File Include="Scripts/addprojet.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Scripts/affichercacher.js">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/customize.min.js">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/docs.min.js">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/ie-emulation-modes-warning.js">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/ie10-viewport-bug-workaround.js">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.js">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.min.js">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.custom/AUTHORS.txt">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.custom/external/jquery/jquery.js">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.custom/images/ui-icons_444444_256x240.png">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.custom/images/ui-icons_555555_256x240.png">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.custom/images/ui-icons_777620_256x240.png">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.custom/images/ui-icons_777777_256x240.png">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.custom/images/ui-icons_cc0000_256x240.png">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.custom/images/ui-icons_ffffff_256x240.png">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.custom/index.html">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.custom/jquery-ui.css">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.custom/jquery-ui.js">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.custom/jquery-ui.min.js">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.custom/jquery-ui.structure.css">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.custom/jquery-ui.structure.min.css">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.custom/jquery-ui.theme.css">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.custom/jquery-ui.theme.min.css">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.custom/LICENSE.txt">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.12.1.custom/package.json">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/mail.js">
+      <publishTime>02/06/2017 04:34:03</publishTime>
+    </File>
+    <File Include="Scripts/popup.js">
+      <publishTime>02/23/2017 07:25:30</publishTime>
+    </File>
+    <File Include="Scripts/popupmotif.js">
+      <publishTime>02/23/2017 07:40:49</publishTime>
+    </File>
+    <File Include="Scripts/Script.js">
+      <publishTime>04/06/2017 08:25:06</publishTime>
+    </File>
+    <File Include="Scripts/Script1.js">
+      <publishTime>04/03/2017 16:30:44</publishTime>
+    </File>
+    <File Include="Scripts/Script2.js">
+      <publishTime>04/03/2017 16:33:06</publishTime>
+    </File>
+    <File Include="Scripts/Script3.js">
+      <publishTime>04/03/2017 16:37:12</publishTime>
+    </File>
+    <File Include="Scripts/ShowDialogConfirmation.js">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Scripts/slimtable.js">
+      <publishTime>03/01/2017 10:15:36</publishTime>
+    </File>
+    <File Include="Scripts/table.js">
+      <publishTime>03/30/2017 18:36:51</publishTime>
+    </File>
+    <File Include="Scripts/test.js">
+      <publishTime>03/01/2017 09:09:52</publishTime>
+    </File>
+    <File Include="Scripts/themes/.svn/all-wcprops">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/.svn/entries">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/blue/.svn/all-wcprops">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/blue/.svn/entries">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/blue/.svn/prop-base/asc.gif.svn-base">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/blue/.svn/prop-base/bg.gif.svn-base">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/blue/.svn/prop-base/blue.zip.svn-base">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/blue/.svn/prop-base/desc.gif.svn-base">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/blue/.svn/prop-base/style.css.svn-base">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/blue/.svn/text-base/asc.gif.svn-base">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/blue/.svn/text-base/bg.gif.svn-base">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/blue/.svn/text-base/blue.zip.svn-base">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/blue/.svn/text-base/desc.gif.svn-base">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/blue/.svn/text-base/style.css.svn-base">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/blue/asc.gif">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/blue/bg.gif">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/blue/blue.zip">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/blue/desc.gif">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/blue/style.css">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/green/.svn/all-wcprops">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/green/.svn/entries">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/green/.svn/prop-base/asc.png.svn-base">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/green/.svn/prop-base/bg.png.svn-base">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/green/.svn/prop-base/desc.png.svn-base">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/green/.svn/prop-base/green.zip.svn-base">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/green/.svn/prop-base/style.css.svn-base">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/green/.svn/text-base/asc.png.svn-base">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/green/.svn/text-base/bg.png.svn-base">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/green/.svn/text-base/desc.png.svn-base">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/green/.svn/text-base/green.zip.svn-base">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/green/.svn/text-base/style.css.svn-base">
+      <publishTime>02/27/2017 15:42:02</publishTime>
+    </File>
+    <File Include="Scripts/themes/green/asc.png">
+      <publishTime>02/27/2017 15:42:03</publishTime>
+    </File>
+    <File Include="Scripts/themes/green/bg.png">
+      <publishTime>02/27/2017 15:42:03</publishTime>
+    </File>
+    <File Include="Scripts/themes/green/desc.png">
+      <publishTime>02/27/2017 15:42:03</publishTime>
+    </File>
+    <File Include="Scripts/themes/green/green.zip">
+      <publishTime>02/27/2017 15:42:03</publishTime>
+    </File>
+    <File Include="Scripts/themes/green/style.css">
+      <publishTime>02/27/2017 15:42:03</publishTime>
+    </File>
+    <File Include="Scripts/themes/images/first.png">
+      <publishTime>02/27/2017 15:42:03</publishTime>
+    </File>
+    <File Include="Scripts/themes/images/last.png">
+      <publishTime>02/27/2017 15:42:03</publishTime>
+    </File>
+    <File Include="Scripts/themes/images/next.png">
+      <publishTime>02/27/2017 15:42:03</publishTime>
+    </File>
+    <File Include="Scripts/themes/images/prev.png">
+      <publishTime>02/27/2017 15:42:03</publishTime>
+    </File>
+    <File Include="Scripts/themes/jquery-1.7.1.js">
+      <publishTime>02/27/2017 15:42:03</publishTime>
+    </File>
+    <File Include="Scripts/themes/jquery-1.7.1.min.js">
+      <publishTime>02/27/2017 15:42:03</publishTime>
+    </File>
+    <File Include="Scripts/themes/jquery-latest.js">
+      <publishTime>02/27/2017 15:42:03</publishTime>
+    </File>
+    <File Include="Scripts/themes/jquery.metadata.js">
+      <publishTime>02/27/2017 15:42:03</publishTime>
+    </File>
+    <File Include="Scripts/themes/jquery.tablesorter.js">
+      <publishTime>02/27/2017 15:42:03</publishTime>
+    </File>
+    <File Include="Scripts/themes/jquery.tablesorter.min.js">
+      <publishTime>02/27/2017 15:42:03</publishTime>
+    </File>
+    <File Include="Scripts/themes/jquery.tablesorter.pager.js">
+      <publishTime>02/27/2017 15:42:03</publishTime>
+    </File>
+    <File Include="Scripts/unitTest1.js">
+      <publishTime>03/01/2017 10:20:13</publishTime>
+    </File>
+    <File Include="Scripts/update.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>04/06/2017 16:34:06</publishTime>
+    </File>
+    <File Include="Styles/bootstrap-theme.min.css">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Styles/bootstrap.min.css">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Styles/ie10-viewport-bug-workaround.css">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Styles/popup.css">
+      <publishTime>02/25/2017 11:55:42</publishTime>
+    </File>
+    <File Include="Styles/popupconfirmation.css">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Styles/signin.css">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Styles/slimtable.css">
+      <publishTime>03/01/2017 10:50:08</publishTime>
+    </File>
+    <File Include="Styles/Style.css">
+      <publishTime>04/06/2017 16:31:58</publishTime>
+    </File>
+    <File Include="Styles/table.css">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="Styles/theme.css">
+      <publishTime>02/03/2017 20:25:59</publishTime>
+    </File>
+    <File Include="update.aspx">
+      <publishTime>04/03/2017 16:39:14</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/22/2017 22:57:18</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>03/31/2017 18:54:35</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

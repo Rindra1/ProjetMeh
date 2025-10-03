@@ -1,0 +1,57 @@
+﻿#titre{
+				float: left; /* positionnement de la lettrine dans le conteneur */
+				font: bold 1em Georgia, "Times New Roman", Times, serif;
+				color: #900;
+				padding: 3px 8px;
+				margin: 5px 5px 0 0;
+				/*border: 1px solid #900;*/
+			}
+        input[type=text] {
+        		font: bold 1em Georgia, "Times New Roman", Times, serif;
+				color: black;
+		
+        }
+@media screen and (max-width:640px) {
+            #description {
+                width:auto;
+            }
+            #agent {
+                width:auto;
+            }
+            #etat {
+                width:auto;
+            }
+        }
+        #titre{
+				float: left;
+				font: bold 1em Georgia, "Times New Roman", Times, serif;
+				color: #900;
+				padding: 3px 8px;
+				margin: 5px 5px 0 0;
+			}
+        input[type=text],textarea {
+        		font: bold 1em Georgia, "Times New Roman", Times, serif;
+				color: black;		
+        }
+        
+@media print and (color) {
+            @page {
+                size:landscape;
+            }
+            .print {
+                display:block;
+            }
+            
+            #eliminer,nav,.hautdepage,.panel-footer,head,#impression, .noprint {
+                display:none;
+            }
+                
+            table, .print {
+                margin:0;
+                padding:0;
+
+                display:block;
+
+            }
+        }
+

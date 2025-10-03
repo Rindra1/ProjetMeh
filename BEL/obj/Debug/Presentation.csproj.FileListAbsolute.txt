@@ -1,0 +1,15 @@
+c:\users\rindra niaina\documents\visual studio 2012\Projects\NouveauProjet\BEL\obj\Debug\Presentation.csprojResolveAssemblyReference.cache
+c:\users\rindra niaina\documents\visual studio 2012\Projects\NouveauProjet\BEL\bin\Debug\BEL.dll
+c:\users\rindra niaina\documents\visual studio 2012\Projects\NouveauProjet\BEL\bin\Debug\BEL.pdb
+c:\users\rindra niaina\documents\visual studio 2012\Projects\NouveauProjet\BEL\obj\Debug\BEL.dll
+c:\users\rindra niaina\documents\visual studio 2012\Projects\NouveauProjet\BEL\obj\Debug\BEL.pdb
+C:\Users\Rindra Niaina\Downloads\ProjetMeh\BEL\bin\Debug\BEL.dll
+C:\Users\Rindra Niaina\Downloads\ProjetMeh\BEL\bin\Debug\BEL.pdb
+C:\Users\Rindra Niaina\Downloads\ProjetMeh\BEL\obj\Debug\Presentation.csprojResolveAssemblyReference.cache
+C:\Users\Rindra Niaina\Downloads\ProjetMeh\BEL\obj\Debug\BEL.dll
+C:\Users\Rindra Niaina\Downloads\ProjetMeh\BEL\obj\Debug\BEL.pdb
+K:\Nouveau dossier (2)\Data\#Root\Nouveau dossier (20)\SUIVI\ProjetMeh\BEL\bin\Debug\BEL.dll
+K:\Nouveau dossier (2)\Data\#Root\Nouveau dossier (20)\SUIVI\ProjetMeh\BEL\bin\Debug\BEL.pdb
+K:\Nouveau dossier (2)\Data\#Root\Nouveau dossier (20)\SUIVI\ProjetMeh\BEL\obj\Debug\Presentation.csproj.CoreCompileInputs.cache
+K:\Nouveau dossier (2)\Data\#Root\Nouveau dossier (20)\SUIVI\ProjetMeh\BEL\obj\Debug\BEL.dll
+K:\Nouveau dossier (2)\Data\#Root\Nouveau dossier (20)\SUIVI\ProjetMeh\BEL\obj\Debug\BEL.pdb

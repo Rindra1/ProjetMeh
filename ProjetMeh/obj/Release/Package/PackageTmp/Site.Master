@@ -1,0 +1,119 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ProjetMeh.Site" %>
+<%@ Import Namespace="BLL" %>
+<%@ Import Namespace="BEL" %>
+<%@ Import Namespace="System.Collections.Generic" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8"/>
+    <title> -MEH</title>
+    <link rel="icon" href="Images/saina.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="SUIVI INSTANCES"/>
+    <meta name="author" content="RAZAFIMANDANONA Rindra Niaina"/>    
+    <link href="Styles/bootstrap.min.css" rel="stylesheet" />    
+    <link href="Scripts/jquery-ui-1.12.1.custom/jquery-ui.css" rel="stylesheet" />
+    <link href="Scripts/jquery-ui-1.12.1.custom/jquery-ui.structure.css" rel="stylesheet" />
+    <link href="Scripts/jquery-ui-1.12.1.custom/jquery-ui.theme.css" rel="stylesheet" />
+    <link href="Styles/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Styles/ie10-viewport-bug-workaround.css" rel="stylesheet" />
+    <link href="Styles/theme.css" rel="stylesheet" />
+    <link href="Styles/popup.css" rel="stylesheet" />
+    <link href="Styles/slimtable.css" rel="stylesheet" />
+            
+    <script type="text/javascript" src="Scripts/jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>    
+    <script type="text/javascript">
+        var JQ = $.noConflict(true);
+    </script>    
+    <script src="Scripts/jquery-1.7.1.js"></script>    
+    <script type="text/javascript" src="Scripts/popup.js"></script>
+    <script type="text/javascript" src="Scripts/popupmotif.js"></script>    
+    <script src="Scripts/affichercacher.js"></script>
+    <script src="Scripts/slimtable.js"></script>
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" autocomplete="off" enableviewstate="false">
+    <div>    
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>             
+            <a class="navbar-brand" href="#">
+                <img class="img-responsive" src="../Images/saina.png" style="float:left;" width="50" height="25" alt="saina" />
+            </a>
+          <a class="navbar-brand" href="#">MEH</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+               <%        
+                   ActionBLL action = new ActionBLL();
+                   List<NouveauComptes> Liste = new List<NouveauComptes>();
+                   Liste = action.GetAllNouveau();
+                   int nbr = Liste.Count;
+               if (Session["pseudo"] != null && Session["role"] != null)
+            {
+                lblpseudo.Text = Session["pseudo"].ToString().Trim() ;
+                if (Session["role"].ToString().Trim().ToLower() == "administrateur")
+                {
+                 %> 
+                    <li class="active"><a href="accueil.aspx">Accueil</a></li>
+                    <li><a href="mail.aspx">Message</a></li>                            
+                    <li><a href="addprojet.aspx">Projet</a></li>
+                    <li><a href="ajout.aspx">Comptes</a></li>
+                    <li><a href="demande.aspx">Demande<span class="badge"><%= nbr %></span></a></li>      
+              <%
+              }                 
+                else if (Session["role"].ToString().Trim().ToLower() == "utilisateur"
+                || Session["role"].ToString().Trim().ToLower() == "superviseur"
+                || Session["role"].ToString().Trim().ToLower() == "super utilisateur")
+                {                  
+                   %>
+              <li class="active"><a href="accueil.aspx">Accueil</a></li>
+              <li><a href="mail.aspx">Message</a></li>                            
+              <li><a href="addprojet.aspx">Projet</a></li>
+              <li><a href="comptes.aspx">Comptes</a></li>
+              <%
+              }
+               }
+               else
+               {
+                   FormsAuthentication.RedirectToLoginPage();
+               }                   
+                   %>
+              <li><a href="archive.aspx">Archive</a></li>
+              <li><a href="impression.aspx">Impression</a></li>
+
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+                <asp:LinkButton EnableViewState="false" ID="LinkButton1" OnClick="LinkButton1_Click" runat="server" CssClass="btn-link"><asp:Label ID="lblpseudo" runat="server"></asp:Label> [Deconnexion]</asp:LinkButton>
+            </li>
+          </ul>
+        </div>
+      </div>        
+    </nav>
+        <div id="hautdepage"></div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" EnableViewState="false">
+        
+        </asp:ContentPlaceHolder>        
+        <div class="panel-footer">
+         <p style="text-align:center">&copy <%= DateTime.Now.Year %> MINISTERE DE L'ENERGIE ET DES HYDROCARBURES   <a class="navbar-right" href="#hautdepage">Retour en haut</a></p>
+        </div>
+    </div>
+           
+    </form>
+   
+</body>
+</html>
+ 

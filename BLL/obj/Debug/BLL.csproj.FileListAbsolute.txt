@@ -1,0 +1,49 @@
+c:\users\rindra niaina\documents\visual studio 2012\Projects\NouveauProjet\BLL\bin\Debug\BLL.dll
+c:\users\rindra niaina\documents\visual studio 2012\Projects\NouveauProjet\BLL\bin\Debug\BLL.pdb
+c:\users\rindra niaina\documents\visual studio 2012\Projects\NouveauProjet\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+c:\users\rindra niaina\documents\visual studio 2012\Projects\NouveauProjet\BLL\obj\Debug\BLL.dll
+c:\users\rindra niaina\documents\visual studio 2012\Projects\NouveauProjet\BLL\obj\Debug\BLL.pdb
+c:\users\rindra niaina\documents\visual studio 2012\Projects\NouveauProjet\BLL\bin\Debug\BEL.dll
+c:\users\rindra niaina\documents\visual studio 2012\Projects\NouveauProjet\BLL\bin\Debug\DAL.dll
+c:\users\rindra niaina\documents\visual studio 2012\Projects\NouveauProjet\BLL\bin\Debug\BEL.pdb
+c:\users\rindra niaina\documents\visual studio 2012\Projects\NouveauProjet\BLL\bin\Debug\DAL.pdb
+C:\Users\Rindra Niaina\Desktop\BLL\bin\Debug\BLL.dll
+C:\Users\Rindra Niaina\Desktop\BLL\bin\Debug\BLL.pdb
+C:\Users\Rindra Niaina\Desktop\BLL\bin\Debug\BEL.dll
+C:\Users\Rindra Niaina\Desktop\BLL\bin\Debug\DAL.dll
+C:\Users\Rindra Niaina\Desktop\BLL\bin\Debug\BEL.pdb
+C:\Users\Rindra Niaina\Desktop\BLL\bin\Debug\DAL.pdb
+C:\Users\Rindra Niaina\Desktop\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Rindra Niaina\Desktop\BLL\obj\Debug\BLL.dll
+C:\Users\Rindra Niaina\Desktop\BLL\obj\Debug\BLL.pdb
+C:\Users\Rindra Niaina\Downloads\ProjetMeh\BLL\bin\Debug\BLL.dll
+C:\Users\Rindra Niaina\Downloads\ProjetMeh\BLL\bin\Debug\BLL.pdb
+C:\Users\Rindra Niaina\Downloads\ProjetMeh\BLL\bin\Debug\BEL.dll
+C:\Users\Rindra Niaina\Downloads\ProjetMeh\BLL\bin\Debug\DAL.dll
+C:\Users\Rindra Niaina\Downloads\ProjetMeh\BLL\bin\Debug\BEL.pdb
+C:\Users\Rindra Niaina\Downloads\ProjetMeh\BLL\bin\Debug\DAL.pdb
+C:\Users\Rindra Niaina\Downloads\ProjetMeh\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Rindra Niaina\Downloads\ProjetMeh\BLL\obj\Debug\BLL.dll
+C:\Users\Rindra Niaina\Downloads\ProjetMeh\BLL\obj\Debug\BLL.pdb
+K:\Nouveau dossier (2)\Data\#Root\Nouveau dossier (20)\SUIVI\ProjetMeh\BLL\bin\Debug\BLL.dll
+K:\Nouveau dossier (2)\Data\#Root\Nouveau dossier (20)\SUIVI\ProjetMeh\BLL\bin\Debug\BLL.pdb
+K:\Nouveau dossier (2)\Data\#Root\Nouveau dossier (20)\SUIVI\ProjetMeh\BLL\bin\Debug\BEL.dll
+K:\Nouveau dossier (2)\Data\#Root\Nouveau dossier (20)\SUIVI\ProjetMeh\BLL\bin\Debug\DAL.dll
+K:\Nouveau dossier (2)\Data\#Root\Nouveau dossier (20)\SUIVI\ProjetMeh\BLL\bin\Debug\BEL.pdb
+K:\Nouveau dossier (2)\Data\#Root\Nouveau dossier (20)\SUIVI\ProjetMeh\BLL\bin\Debug\DAL.pdb
+K:\Nouveau dossier (2)\Data\#Root\Nouveau dossier (20)\SUIVI\ProjetMeh\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+K:\Nouveau dossier (2)\Data\#Root\Nouveau dossier (20)\SUIVI\ProjetMeh\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+K:\Nouveau dossier (2)\Data\#Root\Nouveau dossier (20)\SUIVI\ProjetMeh\BLL\obj\Debug\BLL.csproj.CopyComplete
+K:\Nouveau dossier (2)\Data\#Root\Nouveau dossier (20)\SUIVI\ProjetMeh\BLL\obj\Debug\BLL.dll
+K:\Nouveau dossier (2)\Data\#Root\Nouveau dossier (20)\SUIVI\ProjetMeh\BLL\obj\Debug\BLL.pdb
+C:\SUIVI\ProjetMeh\BLL\bin\Debug\BLL.dll
+C:\SUIVI\ProjetMeh\BLL\bin\Debug\BLL.pdb
+C:\SUIVI\ProjetMeh\BLL\bin\Debug\BEL.dll
+C:\SUIVI\ProjetMeh\BLL\bin\Debug\DAL.dll
+C:\SUIVI\ProjetMeh\BLL\bin\Debug\BEL.pdb
+C:\SUIVI\ProjetMeh\BLL\bin\Debug\DAL.pdb
+C:\SUIVI\ProjetMeh\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\SUIVI\ProjetMeh\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\SUIVI\ProjetMeh\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\SUIVI\ProjetMeh\BLL\obj\Debug\BLL.dll
+C:\SUIVI\ProjetMeh\BLL\obj\Debug\BLL.pdb
